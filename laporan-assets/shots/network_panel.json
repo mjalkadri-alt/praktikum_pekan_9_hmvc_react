@@ -1,0 +1,104 @@
+{
+ "entries": [
+  {
+   "name": "pendaftaran",
+   "method": "GET",
+   "status": 200,
+   "type": "document",
+   "ms": 372,
+   "size": "8.1 kB"
+  },
+  {
+   "name": "app-9f3a.js",
+   "method": "GET",
+   "status": 200,
+   "type": "script",
+   "ms": 14,
+   "size": "612 kB"
+  },
+  {
+   "name": "index-1c7b.js",
+   "method": "GET",
+   "status": 200,
+   "type": "script",
+   "ms": 6,
+   "size": "28.4 kB"
+  },
+  {
+   "name": "pendaftaran/data",
+   "method": "GET",
+   "status": 200,
+   "type": "xhr",
+   "ms": 192,
+   "size": "1.2 kB"
+  },
+  {
+   "name": "pendaftaran",
+   "method": "POST",
+   "status": 422,
+   "type": "xhr",
+   "ms": 158,
+   "size": "339 B"
+  },
+  {
+   "name": "pendaftaran",
+   "method": "POST",
+   "status": 200,
+   "type": "xhr",
+   "ms": 188,
+   "size": "337 B"
+  },
+  {
+   "name": "pendaftaran/data",
+   "method": "GET",
+   "status": 200,
+   "type": "xhr",
+   "ms": 185,
+   "size": "1.7 kB"
+  },
+  {
+   "name": "pendaftaran/3/edit",
+   "method": "GET",
+   "status": 200,
+   "type": "xhr",
+   "ms": 164,
+   "size": "301 B"
+  },
+  {
+   "name": "pendaftaran/3",
+   "method": "POST",
+   "status": 200,
+   "type": "xhr",
+   "ms": 201,
+   "size": "341 B"
+  },
+  {
+   "name": "pendaftaran/data",
+   "method": "GET",
+   "status": 200,
+   "type": "xhr",
+   "ms": 179,
+   "size": "1.7 kB"
+  },
+  {
+   "name": "pendaftaran/3",
+   "method": "DELETE",
+   "status": 200,
+   "type": "xhr",
+   "ms": 147,
+   "size": "337 B"
+  },
+  {
+   "name": "storage/berkas_pendaftaran/gHF0DEUm\u2026pdf",
+   "method": "GET",
+   "status": 200,
+   "type": "document",
+   "ms": 23,
+   "size": "526 B"
+  }
+ ],
+ "response": {
+  "status": 422,
+  "body": "{\"message\":\"The nama field is required. (and 5 more errors)\",\"errors\":{\"nama\":[\"The nama field is required.\"],\"asal_sekolah\":[\"The asal sekolah field is required.\"],\"prodi_tujuan\":[\"The prodi tujuan field is required.\"],\"email\":[\"The email field is required.\"],\"no_hp\":[\"The no hp field is required.\"],\"berkas\":[\"Berkas wajib diunggah.\"]}}"
+ }
+}

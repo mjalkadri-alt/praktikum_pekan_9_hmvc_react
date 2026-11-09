@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box;margin:0}body{background:#2b2b2b;font-family:Consolas,monospace;font-size:13px;line-height:1.6;padding:12px 16px;color:#e6e6e6}pre{white-space:pre;font-family:Consolas,monospace}.c{color:#7fb3ff}</style></head><body><pre><span class="c">$ php artisan route:list --except-vendor</span>
+  GET|HEAD        admin/users  .....  admin.users.index › Modules\UserManagement\Http\Controllers\UserManagementController@index
+  POST            admin/users  .....  admin.users.store › Modules\UserManagement\Http\Controllers\UserManagementController@store
+  GET|HEAD        admin/users/create  .....  admin.users.create › Modules\UserManagement\Http\Controllers\UserManagementController@create
+  PUT|PATCH       admin/users/{user}  .....  admin.users.update › Modules\UserManagement\Http\Controllers\UserManagementController@update
+  DELETE          admin/users/{user}  .....  admin.users.destroy › Modules\UserManagement\Http\Controllers\UserManagementController@destroy
+  GET|HEAD        admin/users/{user}/edit  .....  admin.users.edit › Modules\UserManagement\Http\Controllers\UserManagementController@edit
+  GET|HEAD        dashboard  .....  dashboard › DashboardController
+  GET|HEAD        pendaftaran  .....  pendaftaran.index › Modules\Pendaftaran\Http\Controllers\PendaftaranController@index
+  POST            pendaftaran  .....  pendaftaran.store › Modules\Pendaftaran\Http\Controllers\PendaftaranController@store
+  GET|HEAD        pendaftaran/data  .....  pendaftaran.data › Modules\Pendaftaran\Http\Controllers\PendaftaranController@getData
+  PUT             pendaftaran/{daftar}  .....  pendaftaran.update › Modules\Pendaftaran\Http\Controllers\PendaftaranController@update
+  DELETE          pendaftaran/{daftar}  .....  pendaftaran.destroy › Modules\Pendaftaran\Http\Controllers\PendaftaranController@destroy
+  GET|HEAD        pendaftaran/{daftar}/edit  .....  pendaftaran.edit › Modules\Pendaftaran\Http\Controllers\PendaftaranController@edit
+                                                                                                                                                                                   Showing [35] routes</pre></body></html>

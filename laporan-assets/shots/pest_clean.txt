@@ -1,0 +1,49 @@
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                                                            0.01s
+
+   PASS  Tests\Feature\Auth\AuthenticationTest
+  ✓ login screen can be rendered                                                                                 0.26s
+  ✓ users can authenticate using the login screen                                                                0.06s
+  ✓ users can not authenticate with invalid password                                                             0.22s
+  ✓ users can logout                                                                                             0.02s
+
+   PASS  Tests\Feature\Auth\EmailVerificationTest
+  ✓ email verification screen can be rendered                                                                    0.02s
+  ✓ email can be verified                                                                                        0.02s
+  ✓ email is not verified with invalid hash                                                                      0.02s
+
+   PASS  Tests\Feature\Auth\PasswordConfirmationTest
+  ✓ confirm password screen can be rendered                                                                      0.02s
+  ✓ password can be confirmed                                                                                    0.02s
+  ✓ password is not confirmed with invalid password                                                              0.24s
+
+   PASS  Tests\Feature\Auth\PasswordResetTest
+  ✓ reset password link screen can be rendered                                                                   0.02s
+  ✓ reset password link can be requested                                                                         0.23s
+  ✓ reset password screen can be rendered                                                                        0.24s
+  ✓ password can be reset with valid token                                                                       0.24s
+
+   PASS  Tests\Feature\Auth\RegistrationTest
+  ✓ registration screen can be rendered                                                                          0.03s
+  ✓ new users can register                                                                                       0.03s
+
+   PASS  Tests\Feature\DashboardTest
+  ✓ guests are redirected to the login page                                                                      0.02s
+  ✓ authenticated users can visit the dashboard                                                                  0.02s
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ it returns a successful response                                                                             0.02s
+
+   PASS  Tests\Feature\Settings\PasswordUpdateTest
+  ✓ password can be updated                                                                                      0.02s
+  ✓ correct password must be provided to update password                                                         0.02s
+
+   PASS  Tests\Feature\Settings\ProfileUpdateTest
+  ✓ profile page is displayed                                                                                    0.02s
+  ✓ profile information can be updated                                                                           0.03s
+  ✓ email verification status is unchanged when the email address is unchanged                                   0.02s
+  ✓ user can delete their account                                                                                0.02s
+  ✓ correct password must be provided to delete account                                                          0.02s
+
+  Tests:    27 passed (64 assertions)
+  Duration: 2.14s
